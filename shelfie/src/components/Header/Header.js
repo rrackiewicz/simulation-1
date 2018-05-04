@@ -1,5 +1,5 @@
 import React from 'react'
-import shelfie_icon from '../shelfie_icon.png'
+import shelfie_icon from './shelfie_icon.png'
 
 function Header(props) {
   return (

@@ -1,28 +1,149 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html * {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+html {
+  font-size: 1rem;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.darkred {
+  background: #ab2a19;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.medred {
+  background: #d34735;
 }
 
-.App-intro {
-  font-size: large;
+.lightred {
+  background: #3ad886;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.green {
+  background: #3ad886;
 }
+
+.white {
+  color: white;
+}
+
+body, html {
+  height: 100%;
+}
+
+.card {
+  border-style: none;
+}
+
+.cardInterior{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D5D8DC;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 0px 0px rgba(0,0,0,0.1);
+}
+
+#vertCenter {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexH {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexV {
+  display: flex;
+  flex-direction: column;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcs {
+  justify-content: flex-start;
+}
+
+.jce {
+  justify-content: space-evenly;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.mla {
+  margin-left: auto;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.disabled {
+  opacity: .3 !important;
+}
+
+input {
+  width: 50%;
+}
+
+.formContainer {
+  width: 300px;
+  padding: 15px;
+  font-size: .75em;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.productContainer {
+  width: 400px;
+  margin: 0;
+  background: red;
+  padding: 15px;
+  font-size: .75em;
+  margin-bottom: 15px;
+  border-radius: 2px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  border-radius: 2px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.info {
+  margin-left: 10px;
+  width: 100%
+}
+
+.buttonGroup {
+  margin-top: 15px;
+}
+
+.preview {
+  margin-bottom: 10px;
+}
+
