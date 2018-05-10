@@ -3,3 +3,6 @@ insert into products
 values
 ($1, $2, $3);
 
+select *
+from products;
+

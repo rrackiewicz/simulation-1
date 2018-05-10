@@ -22,8 +22,8 @@ massive(process.env.CONNECTION_STRING).then(dbInstance => {
 app.post('/api/inventory', pc.addOne);
 app.get('/api/inventory', pc.getAll);
 app.delete('/api/inventory/:id', pc.delete);
+app.put('/api/inventory/:id', pc.update);
 //app.get('/api/products/:id', pc.getOne);
-//app.put('/api/products/:id', pc.update);
 
 
 const port = process.env.PORT || 4000;
